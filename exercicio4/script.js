@@ -27,7 +27,6 @@ const percentual = (array) => {
         soma += array[index].valor;
     }
     for (let index = 0; index < array.length; index++) {
-        //let valor = array[index].valor;
         let percent = (array[index].valor / soma) * 100
         console.log(`O estado ${array[index].estado} representa o percentual de ${percent.toFixed(2)}% do valor total mensal da distribuidora`)
     }
